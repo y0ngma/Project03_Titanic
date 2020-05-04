@@ -46,6 +46,8 @@ knitr::opts_chunk$set(echo = TRUE)
 각 목적별로 분류해놨으며, 개인적으로 자주 사용하는 함수들은 패키지옆에 추가로 주석을 달아놨습니다.
 
 <br>
+install.packages("descr")
+install.packages("VIM")
 
 ```{r message=FALSE, warning=FALSE}
 # Data input, assesment : 데이터 불러들이기, 확인하는 과정 

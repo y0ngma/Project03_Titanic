@@ -23,9 +23,10 @@ There are three parts to my script as follows:
 * Prediction!
 
 ## Load and check data
-
 ```{r, message = FALSE}
 # Load packages
+install.packages("ggthemes")
+install.packages("mice")
 library('ggplot2') # visualization
 library('ggthemes') # visualization
 library('scales') # visualization
